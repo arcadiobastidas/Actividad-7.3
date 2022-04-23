@@ -23,11 +23,7 @@ int main()
 				
 		}
 
-	/*for(int j = 0 ; j < (sizeof(*myRunner)/sizeof(myRunner[0])); j++)
-	{
-		cout << myRunner[j].getTime();
-	}*/
-	
+
 	 
 	
 
