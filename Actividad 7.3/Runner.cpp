@@ -52,28 +52,17 @@ void Runner::setTime(Time _time)
  }
  bool Runner::operator>(const Runner& myRunner)
  {
-	 bool flag = true;
-	 Time temp;
-	if((time.getHour() * 3600 + time.getMinute() * 60 + time.getSecond()) > (temp.getHour() * 3600 + temp.getMinute() * 60 + temp.getSecond()))
-	{
-		flag = true;
-	} else
-	{
-		flag = false;
+	 bool flag = false;
+	 if(time > myRunner.getTime()){
+	 	return true;
 	}
 	return flag;
  }
  bool Runner::operator<(const Runner& myRunner)
  {
-	 bool flag = true;
-	 Time temp;
-	 if ((time.getHour() * 3600 + time.getMinute() * 60 + time.getSecond()) < (temp.getHour() * 3600 + temp.getMinute() * 60 + temp.getSecond()))
-	 {
-		 flag = true;
-	 }
-	 else
-	 {
-		 flag = false;
+	 bool flag = false;
+	 if (time < myRunner.getTime()) {
+		 return true;
 	 }
 	 return flag;
  }

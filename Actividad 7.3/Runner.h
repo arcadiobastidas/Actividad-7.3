@@ -35,8 +35,12 @@ public:
 
 	friend istream& operator>>(istream& in, Runner& myRunner);
 
+	
+
 	bool operator > (const Runner& myRunner);
 	bool operator < (const Runner& myRunner);
+
+
 	//bool operator == (const Runner& myRunner);
 
 };

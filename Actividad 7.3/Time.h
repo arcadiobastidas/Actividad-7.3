@@ -24,8 +24,8 @@ public:
 
 	friend ostream& operator<<(ostream& out, const Time& myTime);
 	friend istream& operator>>(istream& in, Time& myTime);
-	bool operator > (const Time& myRunner);
-	bool operator < (const Time& myRunner);
+	bool operator > (const Time& myTime);
+	bool operator < (const Time& myTime);
 
 private:
 	int hour; // 0 - 23 (24-hour clock format)
