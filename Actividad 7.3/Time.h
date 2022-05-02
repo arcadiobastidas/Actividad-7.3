@@ -1,4 +1,5 @@
-#pragma once
+/*************************** TIME.h *****************************/
+
 #ifndef TIME_H
 #define TIME_H
 #include <iostream>
@@ -34,3 +35,4 @@ private:
 }; // end class Time
 
 #endif
+/*************************** END TIME.h *****************************/

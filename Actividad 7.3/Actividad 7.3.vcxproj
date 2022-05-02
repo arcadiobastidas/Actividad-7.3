@@ -21,11 +21,16 @@
   <ItemGroup>
     <ClCompile Include="7_3Main.cpp" />
     <ClCompile Include="Runner.cpp" />
+    <ClCompile Include="RunnersRace.cpp" />
     <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Runner.h" />
+    <ClInclude Include="RunnersRace.h" />
     <ClInclude Include="Time.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

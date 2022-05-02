@@ -1,5 +1,4 @@
-
-
+/*************************** TIME.cpp *****************************/
 #include "Time.h"
 #include <iomanip>
 #include <iostream>
@@ -135,3 +134,6 @@ istream& operator>>(istream& in,  Time& myTime)
 	return in;
 
 }
+
+/*************************** END TIME.cpp *****************************/
+

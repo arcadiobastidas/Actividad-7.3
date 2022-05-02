@@ -1,0 +1,19 @@
+1. (Gaddis) Programming Challenges 16. Running the Race, pág.223, Cap 4.
+a. Implemente una clase de nombre Runner que almacene la información de
+cada corredor.
+b. Implemente una clase Time compuesta de horas, minutos y segundos (Use
+la clase implementada en Deitel)
+c. Implemente los operadores stream
+d. Implemente los operadores relacionales
+e. Implemente una nueva clase de nombre RunnersRace que contenga un
+arreglo dinámico compuesto por n corredores de la clase Runner
+f. Implemente un algoritmo de ordenación dentro de la clase y determine las
+posiciones de los corredores al terminar la carrera.
+g. Implemente los operadores [], relacionales, stream en su clase
+h. Implemente un menú de opciones donde:
+i. Añada un corredor.
+ii. Elimine un corredor.
+iii. Los ordene en relación con el tiempo en orden ascendente.
+iv. Realice una búsqueda por el nombre del corredor y retorne la posición
+que obtuvo en la carrera.
+v. Imprima los corredores y sus respectivos tiempo

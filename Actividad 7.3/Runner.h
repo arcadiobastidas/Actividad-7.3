@@ -1,4 +1,4 @@
-#pragma once
+/*************************** RUNNER.h *****************************/
 #include <string>
 #include "Time.h"
 using namespace std;
@@ -41,6 +41,7 @@ public:
 	bool operator < (const Runner& myRunner);
 
 
-	//bool operator == (const Runner& myRunner);
+
 
 };
+/*************************** END RUNNER.h *****************************/

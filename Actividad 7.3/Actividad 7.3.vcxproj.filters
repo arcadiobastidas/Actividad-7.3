@@ -24,6 +24,9 @@
     <ClCompile Include="Time.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RunnersRace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Runner.h">
@@ -32,5 +35,13 @@
     <ClInclude Include="Time.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RunnersRace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
